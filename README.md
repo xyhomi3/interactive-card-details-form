@@ -5,7 +5,7 @@ This project is a solution to the [Interactive card details form challenge on Fr
 ## Table of Contents
 
 - [Overview](#overview)
-  - [The Challenge](#the-challenge)
+- [The Challenge](#the-challenge)
 - [Links](#links)
 - [Technologies Used](#technologies-used)
 - [How to Use](#how-to-use)
