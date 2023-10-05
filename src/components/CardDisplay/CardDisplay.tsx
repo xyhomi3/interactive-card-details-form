@@ -1,9 +1,9 @@
 import React from "react";
 import "./CardDisplay.css";
-import cardFG from "../../assets/bg-card-front.png";
-import cardBG from "../../assets/bg-card-back.png";
-import logo from "../../assets/card-logo.svg";
-import formatCreditCardNumber from "../../utils/formatCreditCardNumber";
+import cardFG from "@assets/bg-card-front.png";
+import cardBG from "@assets/bg-card-back.png";
+import logo from "@assets/card-logo.svg";
+import formatCreditCardNumber from "@utils/formatCreditCardNumber";
 ////////////////////////////////
 interface CardDisplayProps {
   cardHolderName: string;

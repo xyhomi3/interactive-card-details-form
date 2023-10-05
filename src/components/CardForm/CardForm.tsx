@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import CardHolderNameInput from "../CardHolderNameInput/CardHolderNameInput";
-import CardNumberInput from "../CardNumberInput/CardNumberInput";
-import ExpiryDateInput from "../ExpiryDateInput/ExpiryDateInput";
-import CvcInput from "../CvcInput/CvcInput";
-import CheckmarkIcon from "../../assets/icon-complete.svg";
+import CardHolderNameInput from "@components/CardHolderNameInput/CardHolderNameInput";
+import CardNumberInput from "@components/CardNumberInput/CardNumberInput";
+import ExpiryDateInput from "@components/ExpiryDateInput/ExpiryDateInput";
+import CvcInput from "@components/CvcInput/CvcInput";
+import CheckmarkIcon from "@assets/icon-complete.svg";
 import "./CardForm.css";
 ////////////////////////////////
 export interface CardDetails {

@@ -1,10 +1,10 @@
-import desktopBg from "./assets/bg-main-desktop.png";
-import mobileBg from "./assets/bg-main-mobile.png";
+import desktopBg from "@assets/bg-main-desktop.png";
+import mobileBg from "@assets/bg-main-mobile.png";
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import CardForm from "./components/CardForm/CardForm";
-import CardDisplay from "./components/CardDisplay/CardDisplay";
-import { CardDetails } from "./components/CardForm/CardForm"; // Replace './CardForm' with the correct path to your CardForm file
+import CardForm from "@components/CardForm/CardForm";
+import CardDisplay from "@components/CardDisplay/CardDisplay";
+import { CardDetails } from "@components/CardForm/CardForm"; // Replace './CardForm' with the correct path to your CardForm file
 ////////////////////////////////
 const App: React.FC = () => {
   const [backgroundImage, setBackgroundImage] = useState(desktopBg);
