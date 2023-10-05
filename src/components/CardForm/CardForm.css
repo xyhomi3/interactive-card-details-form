@@ -1,0 +1,106 @@
+/* Form container */
+form {
+  display: grid;
+  border-radius: 5px;
+  padding: 2em;
+  padding-top: 1em;
+  margin-top: 5em;
+  min-width: auto;
+  max-width: 375px;
+}
+
+/* Individual form group containing label and input */
+.form-group {
+  display: grid;
+  justify-self: center;
+  grid-template-columns: 1fr;
+  margin: 0.7em 0;
+  width: 100%;
+}
+
+/* Label styles */
+label {
+  font-size: small;
+  place-self: flex-start;
+  text-transform: uppercase;
+  color: var(--Very-dark-violet);
+  padding-bottom: 0.7em;
+  overflow: hidden;
+  white-space: nowrap;
+  letter-spacing: 0.03em;
+}
+
+/* Input styles */
+input {
+  width: 100%;
+  padding-block: 0.5em;
+  margin-block:-0.3em ;
+  text-indent: 15px;
+  place-self: center;
+  border: 1px solid var(--Light-grayish-violet);
+  border-radius: 10px;
+  font-size: 18px;
+  color: var(--dark-grayish-violet);
+  font-family: inherit;
+  transition: border-color 0.2s;
+  cursor: pointer;
+}
+
+.expiry-date-inputs {
+  display: flex;
+}
+
+/* Container for ExpiryDateInput and CvcInput */
+.expiry-cvc-container {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.7em;
+  width: 100%;
+}
+
+/* Focus styles for input */
+input:focus {
+  outline: none;
+  border-color: darkviolet;
+}
+
+input:hover {
+  outline: none;
+  border-color: var(--dark-grayish-violet);
+}
+
+
+button {
+  width: 101%;
+  color: var(--White);
+  border-radius: 10px;
+  border: none;
+  padding: 0.8em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color:var(--Very-dark-violet);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  filter: brightness(2);
+}
+
+.error-message.show {
+  display: flex;
+}
+
+.required {
+  text-align: start;
+  font-size: 0.7em;
+  color: red;
+  margin-top: 0.5em; 
+}
+
+.error-input{
+  border-color: red;
+}
+
+
+

@@ -1,0 +1,35 @@
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-grayish-violet: hsl(270, 3%, 87%);
+  --Dark-grayish-violet: hsl(279, 6%, 55%);
+  --Very-dark-violet: hsl(278, 68%, 11%);
+
+  font-family: "Space Grotesk", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+#root {
+  max-width: 1440px;
+  margin: 0;
+  padding: 0em;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+
+.attribution {
+  font-size: 11px;
+  padding-top: 15px;
+  white-space: nowrap;
+}
+.attribution a {
+  color: var(--Very-dark-violet);
+}

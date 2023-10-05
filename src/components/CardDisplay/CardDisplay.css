@@ -1,0 +1,410 @@
+.card-display {
+  position: absolute;
+  top: 0;
+  width: auto;
+  height: auto;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.credit-card {
+  top: 10em;
+  bottom: 2em;
+  left: 10em;
+  position: absolute;
+  display: flex;
+}
+
+.card-fg img {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+
+.card-bg {
+  position: absolute;
+  margin-top: 17.6em;
+  margin-left: 7em;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+
+/* Style the card number position, font-size, and color */
+.card-number {
+  position: absolute;
+  font-size: 1.4em;
+  top: 5.8em;
+  left: 1.4em;
+  color: var(--White);
+  letter-spacing: 0.34em;
+  white-space: nowrap;
+}
+
+/* Style the expiry date position, font-size, and color */
+.expiry-date {
+  position: absolute;
+  font-size: small;
+  top: 16em;
+  left: 28.8em;
+  font-size: 0.8em;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--Light-grayish-violet);
+  white-space: nowrap;
+}
+
+/* Style the cardholder name position, font-size, and color */
+.cardholder-name {
+  position: absolute;
+  top: 16em; 
+  left: 2.6em;
+  font-size: 0.8em;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--Light-grayish-violet);
+  white-space: nowrap;
+}
+
+.cvc {
+  position: absolute;
+  top: 30.8em; 
+  left: 37.2em; 
+  font-size: 0.8em;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--Light-grayish-violet);
+  white-space: nowrap;
+  z-index: 300;
+}
+.card-logo{
+  position: absolute;
+  top: 2em;
+  left: 2em;
+  z-index: 200;
+}
+
+@media (max-width: 1390px) {
+  .card-bg {
+    position: relative;
+    margin-top: 1em;
+    margin-left: 1em;
+  }
+  .credit-card {
+    top: 1em;
+    left: 2.3em;
+    position: absolute;
+    display: flex;
+  }
+
+  .card-logo{
+    top: 10.7em;
+    left: 17em;
+    position: absolute;
+  }
+
+  .card-number {
+    position: absolute;
+    top: 13em;
+    left: 12.8em;
+    letter-spacing: 0.34em;
+    white-space: nowrap;
+  }
+
+  .expiry-date {
+  position: absolute;
+  top: 28em;
+  left: 48.8em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--Light-grayish-violet);
+  white-space: nowrap;
+  }
+
+  .cardholder-name {
+    position: absolute;
+    top: 28em;
+    left: 22.5em;
+  }
+
+  .cvc {
+    position: absolute;
+    top: 10.1em;
+    left: 56em;
+
+  }
+  
+  
+}
+@media (max-width: 920px) {
+  .card-bg {
+    position: relative;
+    margin-top: 1em;
+    margin-left: 1em;
+  }
+  .credit-card {
+    top: 1em;
+    left: 2.3em;
+    position: absolute;
+    display: flex;
+  }
+
+  .card-logo{
+    top: 10.8em;
+    left: 8em;
+    position: absolute;
+  }
+
+  .card-number {
+    position: absolute;
+    top: 13em;
+    left: 6.5em;
+    letter-spacing: 0.34em;
+    white-space: nowrap;
+  }
+
+  .expiry-date {
+  position: absolute;
+  top: 28em;
+  left: 37.7em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--Light-grayish-violet);
+  white-space: nowrap;
+  }
+
+  .cardholder-name {
+    position: absolute;
+    top: 28em;
+    left: 11.6em;
+  }
+
+  .cvc {
+    position: absolute;
+    top: 10.3em;
+    left: 45.5em;
+  }
+  
+  
+}
+
+@media (max-width: 750px) {
+  .card-bg {
+    position: relative;
+    margin-top: 1em;
+    margin-left: 1em;
+  }
+  .credit-card {
+    top: 1em;
+    left: 2.3em;
+    position: absolute;
+    display: flex;
+  }
+
+  .card-logo{
+    top: 10.7em;
+    left: 2em;
+    position: absolute;
+  }
+
+  .card-number {
+    position: absolute;
+    top: 13em;
+    left: 2em;
+    letter-spacing: 0.34em;
+    white-space: nowrap;
+  }
+
+  .expiry-date {
+  position: absolute;
+  top: 28em;
+  left: 29.8em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--Light-grayish-violet);
+  white-space: nowrap;
+  }
+
+  .cardholder-name {
+    position: absolute;
+    top: 28em;
+    left: 3.6em;
+  }
+
+  .cvc {
+    position: absolute;
+    top: 10.3em;
+    left: 39.5em;
+
+  }
+  
+  
+}
+
+@media (max-width: 660px) {
+  .card-bg {
+    position: relative;
+    margin-top: 1em;
+    margin-left: 1em;
+  }
+  .credit-card {
+    top: 1em;
+    left: 2.3em;
+    position: absolute;
+    display: flex;
+  }
+
+  .card-logo{
+    top: 9em;
+    left: 2em;
+    position: absolute;
+  }
+
+  .card-number {
+    position: absolute;
+    top: 12.5em;
+    left: 2em;
+    letter-spacing: 0.34em;
+    font-size: 1.2em;
+    white-space: nowrap;
+  }
+
+  .expiry-date {
+  position: absolute;
+  top: 26.7em;
+  left: 29.1em;
+  font-size: 0.7em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--Light-grayish-violet);
+  white-space: nowrap;
+  }
+
+  .cardholder-name {
+    position: absolute;
+    font-size: 0.7em;
+    top: 26.7em;
+    left: 3.5em;
+  }
+
+  .cvc {
+    position: absolute;
+    top: 8.6em; 
+    left: 31em;
+  }
+  
+  
+}
+
+@media (max-width: 555px) {
+  .card-bg {
+    position: relative;
+    margin-top: 1em;
+    margin-left: 0em;
+  }
+  .credit-card {
+    top: 1em;
+    left: 2.3em;
+    position: absolute;
+    display: flex;
+  }
+
+  .card-logo{
+    top: 8em;
+    left: 1em;
+    width: 3em;
+    position: absolute;
+  }
+
+  .card-number {
+    position: absolute;
+    top: 13em; 
+    left: 1.5em;
+    letter-spacing: 0.34em;
+    font-size: 0.99em;
+    white-space: nowrap;
+  }
+
+  .expiry-date {
+  position: absolute;
+  top: 26em;
+  left: 27em;
+  font-size: 0.6em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--Light-grayish-violet);
+  white-space: nowrap;
+  }
+
+  .cardholder-name {
+    position: absolute;
+    font-size: 0.6em;
+    top: 26em;
+    left: 2.6em;
+  }
+
+  .cvc {
+    position: absolute;
+    top: 7.4em;
+    left: 26.3em;
+
+  }
+  
+  
+}
+
+@media (max-width: 475px) {
+  .card-bg {
+    position: relative;
+    margin-top: 1em;
+    margin-left: 0em;
+  }
+  .credit-card {
+    top: 1em;
+    left: 2.3em;
+    position: absolute;
+    display: flex;
+  }
+
+  .card-logo{
+    top: 7.9em;
+    left: -0.7em;
+    width: 3em;
+    position: absolute;
+  }
+
+  .card-number {
+    position: absolute;
+    top: 13em;
+    left: -0.6em;
+    letter-spacing: 0.34em;
+    font-size: 0.99em;
+    white-space: nowrap;
+  }
+
+  .expiry-date {
+  position: absolute;
+  top: 26em;
+  left: 23.5em;
+  font-size: 0.6em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--Light-grayish-violet);
+  white-space: nowrap;
+  }
+
+  .cardholder-name {
+    position: absolute;
+    font-size: 0.6em;
+    top: 26em;
+    left: -0.99em;
+  }
+
+  .cvc {
+    position: absolute;
+    top: 7em;
+    left: 19.5em;
+
+  }
+  
+  
+}
