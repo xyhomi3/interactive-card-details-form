@@ -26,8 +26,9 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
-- [Live Site URL](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/interactivecarddetailsform-wbunvitereacttypescipt-2NxVVbuQfm)
+
+- [Live Site URL](https://xyhomi3.github.io/interactive-card-details-form/)
 
 ## Technologies Used
 
